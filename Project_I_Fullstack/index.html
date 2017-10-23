@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+<!--
+	Dimension by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+    <title>Information Student FTE</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css" />
+    </noscript>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="index.js"></script>
+</head>
+
+<body>
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Header -->
+        <header id="header">
+            <div class="logo">
+                <span class="icon fa-diamond"></span>
+            </div>
+            <div class="content">
+                <div class="inner">
+                    <h1>Welcome Administion</h1>
+                    <p>Faculty of Technology and Environment , Prince of Songkla University Phuket Campus</p>
+                </div>
+            </div>
+            <div>
+                <nav>
+                    <ul>
+                        <li><a href="#login">Login</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+        </header>
+
+        <div id="main">
+
+            <article id="login">
+                <form action="#" method="POST">
+                    <div class="container">
+                        <label><b>Username</b></label>
+                        <input type="text" placeholder="Enter Username" name="username" id="username" required><br>
+
+                        <label><b>Password</b></label>
+                        <input type="password" placeholder="Enter Password" name="password" id="password" required><br>
+
+                        <button type="button" id="submitadmin">Login</button>
+                    </div>
+                </form>
+                    <tbody id="login">
+                    
+                    </tbody>
+            </article>
+
+        </div>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+        </footer>
+
+    </div>
+
+    <!-- BG -->
+    <div id="bg"></div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script type="text/javascript">
+        $("#submitadmin").click(function () {
+            url = "http://localhost:3000/user?";
+            url += "username=" + $("#username").val();
+            url += "&";
+            url += "password=" + $("#password").val();
+            
+            $.getJSON(url, function (data, status) {
+                var len = data.length;
+                // alert(len);
+                if (len > 0) {
+                    alert("Login success");
+                    window.location.href = "home.html";
+                } else {
+                    alert("Please login again.");
+                    window.location.href = "index.html";
+                }
+            });
+        });
+    </script>
+
+</body>
+
+</html>

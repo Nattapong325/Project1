@@ -1,0 +1,225 @@
+<!DOCTYPE HTML>
+<!--
+    Dimension by HTML5 UP
+    html5up.net | @ajlkn
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+    <title>Information Student FTE</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css" />
+    </noscript>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="index.js"></script>
+</head>
+
+<body>
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Header -->
+        <header id="header">
+            <div class="logo">
+                <span class="icon fa-diamond"></span>
+            </div>
+            <div class="content">
+                <div class="inner">
+                    <h1>Information Student</h1>
+                    <p>Faculty of Technology and Environment , Prince of Songkla University Phuket Campus</p>
+                </div>
+            </div>
+            <div>
+                <nav>
+                    <ul>
+                        <li><a href="#it">IT</a></li>
+                        <li><a href="#ebiz">E-biz</a></li>
+                        <li><a href="#se">SE</a></li>
+                        <li><a href="#etm">ETM</a></li>
+                        <li><a href="#geo">GEO</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div>
+                <nav>
+                    <ul>
+                        <li><a href="#insert">Insert</a></li>
+                        <li><a href="index.html">Logout</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+        </header>
+
+        <!-- Main -->
+        <div id="main">
+
+
+            <article id="it">
+                <div class="container">
+                    <h2>Students</h2>
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Student ID</th>
+                                <th>Firsttname</th>
+                                <th>Lastname</th>
+                                <th>Major</th>
+                            </tr>
+                        </thead>
+                        <tbody id="IT">
+
+                        </tbody>
+                    </table>
+                </div>
+            </article>
+
+
+            <article id="ebiz">
+                <div class="container">
+                    <h2>Students</h2>
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Student ID</th>
+                                <th>Firsttname</th>
+                                <th>Lastname</th>
+                                <th>Major</th>
+                            </tr>
+                        </thead>
+                        <tbody id="EBIZ">
+
+                        </tbody>
+                    </table>
+                </div>
+            </article>
+
+
+            <article id="se">
+                <div class="container">
+                    <h2>Students</h2>
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Student ID</th>
+                                <th>Firsttname</th>
+                                <th>Lastname</th>
+                                <th>Major</th>
+                            </tr>
+                        </thead>
+                        <tbody id="SE">
+
+                        </tbody>
+                    </table>
+                </div>
+            </article>
+
+            <article id="etm">
+                <div class="container">
+                    <h2>Students</h2>
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Student ID</th>
+                                <th>Firsttname</th>
+                                <th>Lastname</th>
+                                <th>Major</th>
+                            </tr>
+                        </thead>
+                        <tbody id="ETM">
+
+                        </tbody>
+                    </table>
+                </div>
+            </article>
+
+            <article id="geo">
+                <div class="container">
+                    <h2>Students</h2>
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Student ID</th>
+                                <th>Firsttname</th>
+                                <th>Lastname</th>
+                                <th>Major</th>
+                            </tr>
+                        </thead>
+                        <tbody id="GEO">
+
+                        </tbody>
+                    </table>
+                </div>
+            </article>
+
+            <article id="insert">
+                <div class="container">
+                    <h2>Registion</h2>
+                    <div class="panel-body">
+                        <form name="form" id="form" class="form-horizontal" enctype="multipart/form-data" method="POST">
+
+                            <div class="input-group">
+                                <input type="text" class="form-control" id="id" placeholder="Student ID">
+                            </div><br>
+
+                            <div class="input-group">
+                                <input type="text" class="form-control" id="firstname" placeholder="Firstname">
+                            </div><br>
+
+                            <div class="input-group">
+                                <input type="text" class="form-control" id="lastname" placeholder="Lastname">
+                            </div><br>
+
+                            <div class="input-group">
+                                <select id="major">
+                                        <option value="Information Tehnology">Information Tehnology</option>
+                                        <option value="Electronic Business">Electronic Business</option>
+                                        <option value="Software Engineering">Software Engineering</option>
+                                        <option value="Environmental Technology and Management">Environmental Technology and Management</option>
+                                        <option value="Environmental Geo-informatics">Environmental Geo-informatics</option>
+                                    </select>
+                            </div><br>
+
+                            <div class="input-group center">
+                                <button type="button" id="submit" name="button" class="btn btn-primary" onclick="">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </article>
+
+            
+
+            </div>
+
+            <!-- Footer -->
+            <footer id="footer">
+                <p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+            </footer>
+
+        </div>
+
+        <!-- BG -->
+        <div id="bg"></div>
+
+        <!-- Scripts -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/skel.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+
+
+</body>
+
+</html>

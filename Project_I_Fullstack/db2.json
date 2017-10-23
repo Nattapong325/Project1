@@ -1,0 +1,295 @@
+{
+  "IT": [
+    {
+      "id": 6130211001,
+      "firstname": "PECHPOOM",
+      "lastname": "RAMMAK",
+      "Major": "Information Technology"
+    },
+    {
+      "id": 6130211002,
+      "firstname": "PIYAPON",
+      "lastname": "KEWTERMTRONG",
+      "Major": "Information Technology"
+    },
+    {
+      "id": 6130211003,
+      "firstname": "WANWIPA",
+      "lastname": "SUWAN",
+      "Major": "Information Technology"
+    },
+    {
+      "id": 6130211004,
+      "firstname": "NANNAPHAT",
+      "lastname": "KANTANGKUL",
+      "Major": "Information Technology"
+    },
+    {
+      "id": 6130211005,
+      "firstname": "PHLOIPHET",
+      "lastname": "JIEWKOK",
+      "Major": "Information Technology"
+    },
+    {
+      "id": 6130211006,
+      "firstname": "THANYAPORN",
+      "lastname": "TANTIRATTANYOO",
+      "Major": "Information Technology"
+    },
+    {
+      "id": 6130211007,
+      "firstname": "JULALAK",
+      "lastname": "RATCHARAK",
+      "Major": "Information Technology"
+    },
+    {
+      "id": 6130211008,
+      "firstname": "NAPATH",
+      "lastname": "JIRAVECHKIJKUL",
+      "Major": "Information Technology"
+    },
+    {
+      "id": 6130211009,
+      "firstname": "KWANRUEDEE",
+      "lastname": "RAKSAYOT",
+      "Major": "Information Technology"
+    },
+    {
+      "id": "6130211010",
+      "firstname": "MEATAS",
+      "lastname": "CHIMIN",
+      "Major": "Information Tehnology"
+    }
+  ],
+  "EBIZ": [
+    {
+      "id": 6130212001,
+      "firstname": "SITTHINEE",
+      "lastname": "CHANOO",
+      "Major": "Electronic Business"
+    },
+    {
+      "id": 6130212009,
+      "firstname": "PARADEE",
+      "lastname": "YODTHONG",
+      "Major": "Electronic Business"
+    },
+    {
+      "id": 6130212003,
+      "firstname": "TUTCHAWIN",
+      "lastname": "PETSUNK",
+      "Major": "Electronic Business"
+    },
+    {
+      "id": 6130212004,
+      "firstname": "SUNANTA",
+      "lastname": "TOHPONG",
+      "Major": "Electronic Business"
+    },
+    {
+      "id": 6130212005,
+      "firstname": "MANASAWEE",
+      "lastname": "SAEPOO",
+      "Major": "Electronic Business"
+    },
+    {
+      "id": 6130212006,
+      "firstname": "CHAITAWAT",
+      "lastname": "THONGSRI",
+      "Major": "Electronic Business"
+    },
+    {
+      "id": 6130212007,
+      "firstname": "HAMEESA",
+      "lastname": "KANJANAMOOKDA",
+      "Major": "Electronic Business"
+    },
+    {
+      "id": 6130212008,
+      "firstname": "PASAKORN",
+      "lastname": "BOONYASUWAN",
+      "Major": "Electronic Business"
+    },
+    {
+      "id": 6130212009,
+      "firstname": "IRAWIN",
+      "lastname": "RAKAM",
+      "Major": "Electronic Business"
+    },
+    {
+      "id": 6130212010,
+      "firstname": "SITANYA",
+      "lastname": "PROMSANIT",
+      "Major": "Electronic Business"
+    }
+  ],
+  "SE": [
+    {
+      "id": 6130213001,
+      "firstname": "PATTHARAPONG",
+      "lastname": "UDOMSIN",
+      "Major": "Software Engineering"
+    },
+    {
+      "id": 6130213002,
+      "firstname": "KAMONNUT",
+      "lastname": "BANJONGKARN",
+      "Major": "Software Engineering"
+    },
+    {
+      "id": 6130213003,
+      "firstname": "CHANTIMA",
+      "lastname": "PHUMIPOL",
+      "Major": "Software Engineering"
+    },
+    {
+      "id": 6130213004,
+      "firstname": "PANUWAT",
+      "lastname": "SANGNGERN",
+      "Major": "Software Engineering"
+    },
+    {
+      "id": 6130213005,
+      "firstname": "SUKRIT",
+      "lastname": "RODTHONG",
+      "Major": "Software Engineering"
+    },
+    {
+      "id": 6130213006,
+      "firstname": "SASIPA",
+      "lastname": "PUEKPHET",
+      "Major": "Software Engineering"
+    },
+    {
+      "id": 6130213007,
+      "firstname": "PANYAWAT",
+      "lastname": "KHIAWTONG",
+      "Major": "Software Engineering"
+    },
+    {
+      "id": 6130213008,
+      "firstname": "WITHAWAD",
+      "lastname": "NAKKARAT",
+      "Major": "Software Engineering"
+    }
+  ],
+  "ETM": [
+    {
+      "id": 6130214001,
+      "firstname": "SARAWUT",
+      "lastname": "BANJONGKARN",
+      "Major": "Environmental Technology and Management"
+    },
+    {
+      "id": 6130214002,
+      "firstname": "RONNAKRIT",
+      "lastname": "KEAWHIN",
+      "Major": "Environmental Technology and Management"
+    },
+    {
+      "id": 6130214003,
+      "firstname": "CHINNAWAT",
+      "lastname": "CHOORAT",
+      "Major": "Environmental Technology and Management"
+    },
+    {
+      "id": 6130214004,
+      "firstname": "VINAI",
+      "lastname": "SONGSOM",
+      "Major": "Environmental Technology and Management"
+    },
+    {
+      "id": 6130214005,
+      "firstname": "NANTARAT",
+      "lastname": "SUNTIAMONTUT",
+      "Major": "Environmental Technology and Management"
+    },
+    {
+      "id": 6130214006,
+      "firstname": "WORAPAN",
+      "lastname": "PROMNURUKKIT",
+      "Major": "Environmental Technology and Management"
+    },
+    {
+      "id": 6130214007,
+      "firstname": "SIRIPAT",
+      "lastname": "KHATISOMSAKUL",
+      "Major": "Environmental Technology and Management"
+    },
+    {
+      "id": 6130214008,
+      "firstname": "KAMOLPAT",
+      "lastname": "JUNTAWONG",
+      "Major": "Environmental Technology and Management"
+    },
+    {
+      "id": 6130214009,
+      "firstname": "SUPUTCHA",
+      "lastname": "DEADKUNTOD",
+      "Major": "Environmental Technology and Management"
+    }
+  ],
+  "GEO": [
+    {
+      "id": 6130215001,
+      "firstname": "BUSARAPORN",
+      "lastname": "TANTISIYANURAK",
+      "Major": "Environmental Geo-informatics"
+    },
+    {
+      "id": 6130215002,
+      "firstname": "NATTAKARN",
+      "lastname": "PUSAKUL",
+      "Major": "Environmental Geo-informatics"
+    },
+    {
+      "id": 6130215003,
+      "firstname": "NUTNICHA",
+      "lastname": "SANGKHAWIJIT",
+      "Major": "Environmental Geo-informatics"
+    },
+    {
+      "id": 6130215004,
+      "firstname": "NAWARAT",
+      "lastname": "RODSUK",
+      "Major": "Environmental Geo-informatics"
+    },
+    {
+      "id": 6130215005,
+      "firstname": "BUSSAKORN",
+      "lastname": "NOOJAN",
+      "Major": "Environmental Geo-informatics"
+    },
+    {
+      "id": 6130215006,
+      "firstname": "PIMONNART",
+      "lastname": "THAIKERD",
+      "Major": "Environmental Geo-informatics"
+    },
+    {
+      "id": 6130215007,
+      "firstname": "SARAWUT",
+      "lastname": "PIROMROD",
+      "Major": "Environmental Geo-informatics"
+    },
+    {
+      "id": 6130215008,
+      "firstname": "SUTTIDA",
+      "lastname": "MAYOTHA",
+      "Major": "Environmental Geo-informatics"
+    },
+    {
+      "id": 6130215009,
+      "firstname": "SUKANYA",
+      "lastname": "RODCHUM",
+      "Major": "Environmental Geo-informatics"
+    }
+  ],
+  "user": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "1234"
+    }
+  ]
+}
